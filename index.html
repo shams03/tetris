@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Restaurant name - Delicious meals and exceptional service"
+    />
+    <title>JTGeats Restaurant</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-inside">
+        <img
+          style="width: 5.56rem; height: 1.25rem; cursor: pointer"
+          src="./public/JTGeats.png"
+          alt="logo"
+        />
+        <div class="navbar-mid-rhs">
+          <div class="navbar-mid">
+            <div class="navbar-list">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Menu</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="navbar-rhs">
+            <img id="navbar-search" src="./public/search.png" alt="search" />
+            <img id="open-cart-modal-btn" src="./public/Cart.png" alt="cart" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="cover-page">
+      <div class="cover-page-lhs">
+        <h1>Authentic Home food in India</h1>
+        <h6>
+          JTGeats is a courier service in which authentic home cook food is
+          delivered to a customer.
+        </h6>
+        <div class="cover-page-search-area">
+          <input type="text" placeholder="Search food you love" />
+          <button id="cover-page-search">Search</button>
+        </div>
+      </div>
+      <img id="cover-photo" src="./public/cover_photo.svg" alt="Cover Photo" />
+    </div>
+    <div id="home-kitchen">
+      <div class="kitchen">
+        <h1>Home Kitchen</h1>
+        <div class="items">
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza onion.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" alt="star" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza with spoon.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza 3 piece.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza loaded.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" alt="star" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza 2 pizza.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza burrata.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza capcicum.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza plain.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza onion.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza with spoon.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza 3 piece.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="item_img"
+              src="./public/Home made pizza loaded.png"
+              alt="food item"
+            />
+            <div class="item_description">
+              <div class="item_row_1">
+                <p>Home made pizza</p>
+                <p class="item_price">&#8377;190</p>
+              </div>
+              <div class="item_row_2">
+                <div class="item_row_2_lhs">
+                  <div class="item_rating">
+                    <img src="./public/star.svg" /><span>4.7</span>
+                  </div>
+                  <span class="estimated_time"> <p>50-79 min</p></span>
+                </div>
+                <img src="./public/plus.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 style="text-align: center; font-weight: 800; margin-top: auto">
+        Popular Items
+      </h1>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza onion.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza with spoon.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza 3 piece.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza loaded.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" alt="star" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza 2 pizza.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item">
+              <img
+                class="item_img"
+                src="./public/Home made pizza burrata.png"
+                alt="food item"
+              />
+              <div class="item_description">
+                <div class="item_row_1">
+                  <p>Home made pizza</p>
+                  <p class="item_price">&#8377;190</p>
+                </div>
+                <div class="item_row_2">
+                  <div class="item_row_2_lhs">
+                    <div class="item_rating">
+                      <img src="./public/star.svg" /><span>4.7</span>
+                    </div>
+                    <span class="estimated_time"> <p>50-79 min</p></span>
+                  </div>
+                  <img src="./public/plus.svg" alt="Add to cart" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <img src="./public/Arrow.svg" alt="Next" />
+        </div>
+        <div class="swiper-button-prev">
+          <img src="./public/Arrow left.svg" alt="Previous" />
+        </div>
+      </div>
+      <button id="req-a-dish">Request a Dish</button>
+    </div>
+
+    <!--  -->
+
+    <div id="dishModal" class="modal">
+      <div class="modal-content">
+        <span id="closeBtn" class="close">&times;</span>
+        <h2 style="text-align: center; margin: 83px auto; margin-bottom: 40px">
+          Request a Dish
+        </h2>
+        <form id="dishForm">
+          <div class="modal-input">
+            <label for="name-of-dish" style="color: #474747">Name &ast;</label>
+            <input
+              type="text"
+              id="name-of-dish"
+              placeholder="Enter the name of the dish"
+              required
+            />
+
+            <label
+              for="upload-an-image"
+              style="display: flex-column; color: #474747"
+              >Upload an image</label
+            >
+            <input
+              type="text"
+              id="upload-an-image"
+              placeholder="Paste the URL"
+              required
+            />
+          </div>
+          <div class="modal-buttons">
+            <button type="button" id="cancelBtn">Cancel</button>
+            <button type="button" id="submitBtn">Submit Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Cart modal begins  -->
+    <div id="cart_empty_modal" class="cart_modal">
+      <div class="modal_content">
+        <span id="close_modal_btn" class="modal_close_btn">&times;</span>
+        <img src="./public/akar-icons_shopping-bag.svg" alt="bag icon" />
+        <div class="modal_content_text">
+          <h2 class="modal_content_text_title">Cart is Empty</h2>
+          <p class="modal_content_text_description">
+            Add some items to the cart to checkout
+          </p>
+        </div>
+        <button id="back_to_menu_btn">Back to Menu</button>
+      </div>
+    </div>
+
+    <div class="video-section">
+      <div class="video-section_div">
+        <div class="video-section_text">
+          <h2 class="video-section_title">
+            We are providing best <br />
+            home cooked food delivery service.
+          </h2>
+          <p class="video-section_description">
+            Away from home and craving the tasty homemade recipes? <br />
+            Choose from a selection of our delicious home cooked dishes
+          </p>
+        </div>
+        <div class="video-container">
+          <video
+            class="video"
+            id="my-video"
+            src="./public/mov_bbb.mp4"
+            controls
+          ></video>
+          <img
+            id="video-play"
+            src="./public/Arrow.svg"
+            alt="Play Button"
+            class="video-control"
+          />
+          <div id="video-pause" style="display: none" class="video-control">
+            II
+          </div>
+        </div>
+      </div>
+      <div class="green-background"></div>
+    </div>
+
+    <div class="contact-section">
+      <div class="contact-section-div">
+        <div class="contact-info-lhs">
+          <div class="contact-lhs-title">
+            <h2>Do you have a question or want to become a seller?</h2>
+            <p>
+              Fill this form and our manager will contact you next 48 hours.
+            </p>
+          </div>
+          <div class="contact-input">
+            <div class="contact-input-1">
+              <input id="contact-col1" type="text" placeholder="Your Name" />
+              <input id="contact-col2" type="text" placeholder="Your Email" />
+            </div>
+            <input id="contact-msg" type="text" placeholder="Your message" />
+
+            <button id="contact-btn">Submit</button>
+          </div>
+        </div>
+        <img
+          src="./public/Food_delivery_cute_man_riding_motorcycles_cartoon_art_illustration 2.svg"
+          alt="Food_delivery_cute_man"
+        />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-inside">
+        <div class="footer-contents">
+          <img
+            style="width: 5.56rem; height: 1.25rem; cursor: pointer"
+            src="./public/JTGeats.png"
+            alt="logo"
+          />
+          <div class="navbar-list">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-socials">
+            <img src="./public/Facebook.svg" alt="Facebook" />
+            <img src="./public/iconoir_add-to-cart.svg" alt="instagram" />
+          </div>
+        </div>
+        <div id="footer-white-line"></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
